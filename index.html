@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skype Contacts</title>
+	<link rel="icon" href="http://www.skypeassets.com/i/common/images/icons/favicon.ico" type="image/vnd.microsoft.icon"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+</head>
+<body>
+<!-- nav bar -->
+<div class="navbar-fixed">
+	<nav class="blue-grey darken-2">
+	    <div class="nav-wrapper">
+	      <a href="#" class="brand-logo"><i class="fa fa-skype"></i> Skype Contacts </a>
+	      <a href="#" data-activates="mobile-demo" class="navbar-collapse"><i class="material-icons">menu</i></a>
+		      <!-- desktop menu -->
+		      <ul class="right hide-on-med-and-down">
+		        <li class="active"><a href="#">Home</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Profile</a></li>
+		      </ul> <!-- end of desktop menu -->
+
+		      <!-- mobile menu -->
+		      <ul class="side-nav" id="mobile-demo">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Profile</a></li>
+		      </ul> <!-- end of mobile menu -->
+	    </div>
+	</nav>
+  </div> <!-- end of nav bar -->     
+
+<!-- welcome message -->
+<div class="col m12 welcome-message">
+  <div class="card">
+      <div class="card-image">
+              <img src="images/skype.png">
+       </div>
+    </div>
+</div>  <!-- end of welcome message -->
+
+
+<!--- skype contacts table -->
+<div class="container main">
+<div class="col m12 s6">
+<h4 class="blue-grey-text text-darken-2 center">
+      Your Skype Contacts
+</h4>
+<table class="bordered">
+	    <thead>
+	      <tr>
+	          <th  data-field="name">Name</th>
+	          <th  data-field="actions">Actions</th>
+	      </tr>
+	    </thead>
+
+	    <tbody>
+	      <tr>
+	        <td>
+	        	<img src="https://secure.gravatar.com/avatar/bf66dbaa1a05843d781f63227fb6e456?s=64">
+	        	 <span>Iftekher Sunny</span>
+	        </td>
+	        <td>
+	        <a href="skype:echo123?chat" class="waves-effect waves-light btn  red darken-4"><i class="material-icons">chat_bubble</i></a>
+	        <a href="skype:echo123?call" class="waves-effect waves-light btn  light-blue darken-4"><i class="material-icons">phone</i></a>
+	        <a href="skype:echo123?call&video=true" class="waves-effect waves-light btn  teal darken-4"><i class="material-icons">videocam</i></a>
+	        </td>
+	      </tr>
+
+	      <tr>
+	         <td>
+	        	<img src="https://secure.gravatar.com/avatar/bf66dbaa1a05843d781f63227fb6e456?s=64">
+	        	 <span>Iftekher Sunny</span>
+	        </td>
+	        <td>
+	        <a href="skype:echo123?chat" class="waves-effect waves-light btn  red darken-4"><i class="material-icons">chat_bubble</i></a>
+	        <a href="skype:echo123?call" class="waves-effect waves-light btn  light-blue darken-4"><i class="material-icons">phone</i></a>
+	        <a href="skype:echo123?call&video=true" class="waves-effect waves-light btn  teal darken-4"><i class="material-icons">videocam</i></a>
+	        </td>
+	      </tr>
+
+	    </tbody>
+  </table>
+  </div>
+</div>
+<!-- end of skype contacts table -->
+
+<!-- footer -->
+ <footer class="page-footer grey darken-3">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col l6 s12">
+	        <h5 class="white-text">Learn More......</h5>
+	        <p class="grey-text text-lighten-4 skype-api-link"><a href="https://msdn.microsoft.com/en-us/library/dn745882.aspx">Skype URI API reference</a></p>
+	      </div>
+	      <div class="col l4 offset-l2 s12">
+	        <h5 class="white-text">Need Help???</h5>
+	        <ul>
+	          <li class="facebook"><a class="grey-text" href="https://www.facebook.com/profile.php?id=100002837300191"><i class="fa fa-facebook"></i> Facebook</a></li>
+	          <li class="twitter"><a class="grey-text" href="https://twitter.com/iftekhersunny"><i class="fa fa-twitter"></i> Twitter</a></li>
+	          <li class="github"><a class="grey-text" href="https://github.com/IftekherSunny"><i class="fa fa-github"></i> Github</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="footer-copyright grey darken-2">
+	    <div class="container">
+	    Designed By <a href="https://www.facebook.com/profile.php?id=100002837300191" class="grey-text text-lighten-4">Iftekher Islam Sunny</a>
+	    </div>
+	  </div>
+</footer> <!-- end of footer -->
+
+
+
+<!-- scripts -->
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+<script > $(".navbar-collapse").sideNav(); </script>
+</body>
+</html>
